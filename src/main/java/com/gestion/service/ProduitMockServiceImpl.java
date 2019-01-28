@@ -41,11 +41,11 @@ public class ProduitMockServiceImpl  implements IProduitService{
 	}
 
 	@Override
-	public void deleteProduit(String ref) {
+	public void deleteProduit(Long id) {
 		// TODO Auto-generated method stub
-		System.out.print(" suppression du produit de ref : "+ref);
+		System.out.print(" suppression du produit de ref : "+id);
 		Produit produit = new Produit();
-		produit.setRef(ref);
+		produit.setId(id);;
 		this.produits.remove(produit);
 	}
 
