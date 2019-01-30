@@ -38,7 +38,7 @@ public class ServeurGestionStockProduitsApplication {
 //	   ur.save(alpha);
 //	   ur.save(djeyna);
 //	   ur.save(leuz);
-//	   
+  
 	   
 	}
 
